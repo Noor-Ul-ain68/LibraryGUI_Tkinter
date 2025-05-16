@@ -19,3 +19,22 @@ This project is a GUI-based Library Management System built with Python Tkinter.
    python -m venv venv
    venv\Scripts\activate      # Windows
    source venv/bin/activate   # Mac/Linux
+---
+
+## 🧠 PyQt GUI Version
+
+This version uses PyQt5 to create a desktop GUI for the same library system.
+
+### 📂 File:
+- `pyqt_app.py`
+
+### 🧪 Features:
+- Add books (title, author, ISBN)
+- View all added books in a list
+- Backend logic shared with Tkinter version
+
+### 💡 How to Run (with PyQt environment)
+
+1. Activate the virtual environment:
+   ```bash
+   venv_pyqt\Scripts\activate
